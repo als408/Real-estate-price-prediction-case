@@ -27,8 +27,10 @@
 
 ## Do zrobienia
 
-- [ ] Mocniejsze modele, np. Random Forest, Extra Trees i boosting, oraz połączenie cech liczbowych i tekstowych.
-- [ ] Strojenie modeli na walidacji czasowej wewnątrz treningu, bez dobierania parametrów na teście.
+- [x] Random Forest, Extra Trees i HistGradientBoosting na cechach liczbowych i liczbie pokoi; wybór konfiguracji na wewnętrznej walidacji czasowej.
+- [ ] Połączenie cech liczbowych, tekstowych i LLM w mocniejszych modelach.
+- [x] Wstępne strojenie zespołów drzew na walidacji czasowej wewnątrz treningu, bez dobierania parametrów na teście.
+- [ ] Rozszerzenie walidacji na wiele kolejnych okien czasowych i pozostałe rodziny modeli.
 - [ ] Lepsze przetwarzanie tekstu w modelach ceny: przeniesienie czyszczenia HTML do pipeline TF-IDF, parsowanie `params`, kontrola cen w opisach i tytułach oraz porównanie TF-IDF z embeddingami.
 - [ ] Ręczna ocena poprawności ekstrakcji na przykładach treningowych — zgodność dwóch modeli nie jest miarą zgodności z prawdą; analiza braków i doprecyzowanie definicji cech.
 - [ ] Dołączenie cech LLM do modeli ceny i porównanie wariantów z tymi cechami i bez nich na tych samych ofertach.
