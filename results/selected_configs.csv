@@ -1,0 +1,7 @@
+family,variant,params,mean_MAE,std_MAE
+ExtraTrees,gpt,"{""min_samples_leaf"": 3}",42741.75579986593,8705.924622199434
+RandomForest,gpt,"{""min_samples_leaf"": 3}",44807.16804447349,6783.966426496387
+HistGradientBoosting,gpt,"{""max_leaf_nodes"": 15}",44941.28931022081,8720.195734913294
+ExtraTrees,base,"{""min_samples_leaf"": 3}",45265.43134763768,7751.847944136519
+RandomForest,base,"{""min_samples_leaf"": 3}",46538.74927797658,6183.164481868652
+HistGradientBoosting,base,"{""max_leaf_nodes"": 15}",46997.403404377255,8818.291738430271

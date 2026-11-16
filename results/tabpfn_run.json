@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "metrics": {
+    "MAE": 36409.78837773883,
+    "RMSE": 64273.96975334009,
+    "R2": 0.7940602849461155,
+    "n_test": 1196
+  },
+  "seconds": 105.60604095458984,
+  "fingerprints": {
+    "data/real_estate_ads.csv": "ddc194f969035c08d82e57dfe15beecc99757232f1e6d3d50398d9c2619c832c",
+    "llm_features_new.csv": "faa6c3cbf90982cb77ce77ddab1d14a9fe86aa951b08a9cce63f1136269776a6",
+    "src/pricepred/workflow.py": "fbf3b5143df49a549972b9902f037808e6652da509bd396f3714b73ce1206def"
+  },
+  "tabpfn_version": "10.0.0",
+  "settings": "TabPFNRegressor() defaults, no hyperparameter search"
+}
