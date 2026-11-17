@@ -1,0 +1,11 @@
+warunek,waga_PLN
+41.30 < m <= 49.00,-49115.3146877048
+parking=unknown,-25375.037983112787
+build_year <= 1990.00,-19721.58575156957
+building_type=block,-18102.9040874426
+num_bathrooms <= 1.00,-15372.831602008459
+finish_standard=standard,-12153.16849390341
+no_rooms=3,9917.775379659883
+layout_functionality=separate,-9401.018074450963
+natural_light_exposure=__unseen__,8476.124920764882
+nearby_green_areas=__unseen__,8476.124920764882
